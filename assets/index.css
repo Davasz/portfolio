@@ -16,7 +16,34 @@
     box-sizing: border-box;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #610094 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--purple);
+    border-radius: 10px;
+    border: 3px solid transparent;
+  }
+
+body {
+    overflow-x: hidden;
+  }
+
 header {
+    position: fixed;
     width: 100vw;
     background-color: var(--very-dark-purple);
     height: 14.7vh;
@@ -48,14 +75,14 @@ header div {
 }
 
 main {
+    width: 100vw;   
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(247.96deg, #0F0518 4.78%, #190038 50.35%, #2C1E33 96.57%);
     box-shadow: inset 0px 3px 7px #190038;
-    height: 85.3vh;
-    width: 100vw;
+    height: 100vh;
 }
 
 .text-main {
@@ -155,4 +182,8 @@ main {
     transform: translateY(-0.5rem);
     background-color: rgb(110, 70, 255);
     box-shadow: inset 0px -4px 0px #32005A, 0px 7px 20px -4px rgb(110, 70, 255);  
+}
+
+section {
+    width: 90%;
 }
