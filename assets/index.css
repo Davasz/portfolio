@@ -1,0 +1,158 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --purple: #610094;
+    --dark-purple: #4200FF;
+    --very-dark-purple: #13002B;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    background-color: var(--very-dark-purple);
+    height: 14.7vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+header img {
+    height: 50%;
+    margin-left: 2rem;
+}
+
+header a {
+    color: var(--white);
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Rowdies', cursive;
+    margin-right: 2rem;
+    font-size: 130%;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: gray;
+}
+
+header div {
+    margin-left: 25rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(247.96deg, #0F0518 4.78%, #190038 50.35%, #2C1E33 96.57%);
+    box-shadow: inset 0px 3px 7px #190038;
+    height: 85.3vh;
+    width: 100vw;
+}
+
+.text-main {
+    color: var(--white);
+    margin-bottom: 5rem;
+}
+
+
+.text-main h1 {
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 3s steps(13) infinite alternate,
+          blink 800ms steps(13) infinite normal;
+        border-right: 7px solid black;
+}
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 120%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: var(--purple);
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+ 
+  
+
+.text-main p {
+    font-family: 'Rowdies';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.repositorio {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Rowdies';
+    background-color: var(--purple);
+    box-shadow: inset 0px -4px 0px #3F0071;
+    border-radius: 11px;
+    width: 15.5rem;
+    height: 2.8rem;
+    color: var(--white);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.git-icon {
+    position: relative;
+    top: 10%;
+    left: 0%;
+}
+
+.download-icon {
+    position: relative;
+    top: 10%;
+    left: 0%;
+}
+
+
+
+.curriculo {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Rowdies';
+    width: 15.5rem;
+    height: 2.8rem;
+    color: var(--white);
+    border: none;
+    background-color: var(--dark-purple);
+    box-shadow: inset 0px -4px 0px #32005A;
+    border-radius: 11px;
+    cursor: pointer;
+    margin-left: 3.5rem;
+}
+
+.repositorio:hover {
+    transform: translateY(-0.5rem);
+    background-color: rgb(183, 4, 219);
+    box-shadow: inset 0px -4px 0px #32005A, 0px 7px 20px -4px rgba(219,4,219,1);
+}
+
+.curriculo:hover {
+    transform: translateY(-0.5rem);
+    background-color: rgb(110, 70, 255);
+    box-shadow: inset 0px -4px 0px #32005A, 0px 7px 20px -4px rgb(110, 70, 255);  
+}
