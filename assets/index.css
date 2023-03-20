@@ -59,7 +59,6 @@ header img {
 
 header a {
     color: var(--white);
-    font-family: 'Overpass', sans-serif;
     font-family: 'Rowdies', cursive;
     margin-right: 2rem;
     font-size: 130%;
@@ -71,7 +70,29 @@ header a:hover {
 }
 
 header div {
-    margin-left: 25rem;
+    display: flex;
+    margin-left: 20rem;
+}
+
+label {
+    display: block;
+    margin-right: -8rem;
+  }
+  
+select {
+    margin-top: -0.11rem;
+    font-family: 'Rowdies', cursive;
+    color: var(--white);
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+select option {
+    color: black;
+    background-color: transparent;
 }
 
 main {

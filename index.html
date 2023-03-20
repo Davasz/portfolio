@@ -19,8 +19,11 @@
             <a data-i18n="SOBRE" href="">SOBRE</a>
             <a data-i18n="PROJETOS" href="">PROJETOS</a>
             <a data-i18n="HABILIDADES" href="">HABILIDADES</a>
-            <a data-i18n="CONTATO" href="">CONTATO</a> 
-            <button id="btn-translate">Translate</button>
+            <a data-i18n="CONTATO" href="">CONTATO</a>
+            <select id="language-select">
+                <option value="pt">PORTUGUESE</option>
+                <option value="en">ENGLISH</option>
+            </select>
         </div>
 
     </header>
@@ -33,7 +36,7 @@
 
             <button class="repositorio">
                 <img class="git-icon" src="assets/img/icon-github.png" alt="Icon GitHub">
-                <span data-i18n="REPOSITÓRIOS">REPOSITÓRIOS</span> 
+                <span data-i18n="REPOSITÓRIOS">REPOSITÓRIOS</span>
             </button>
 
             <a download="currículo-davi.pdf" href="assets/curriculo-Davi.pdf">
@@ -48,12 +51,11 @@
     <section>
 
     </section>
-   
 
 
-    <script src="node_modules/i18next/i18next.min.js"></script>
-    <script src="assets/script.js"></script>
 
+    <script src="/src/node_modules/i18next/i18next.min.js"></script>
+    <script src="assets/js/translate.js"></script>
 </body>
 
 </html>
