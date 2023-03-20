@@ -141,6 +141,7 @@ main {
     border: none;
     text-align: center;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .git-icon {
@@ -148,15 +149,6 @@ main {
     top: 10%;
     left: 0%;
 }
-
-.download-icon {
-    position: relative;
-    top: 10%;
-    left: 0%;
-}
-
-
-
 .curriculo {
     font-weight: 400;
     font-size: 22px;
@@ -170,6 +162,12 @@ main {
     border-radius: 11px;
     cursor: pointer;
     margin-left: 3.5rem;
+    transition: 0.2s;
+}
+.download-icon {
+    position: relative;
+    top: 10%;
+    left: 0%;
 }
 
 .repositorio:hover {
