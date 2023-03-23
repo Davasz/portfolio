@@ -204,5 +204,60 @@ main {
 }
 
 section {
-    width: 90%;
+    background-image: linear-gradient(260.42deg, #20002B 0%, #2B0056 99.46%);
+    width: 100%;
+    height: 90vh;
+    box-shadow: inset 0px -3px 40px #0F0518;
+    overflow-y: hidden;
+    text-align :center;
+}
+
+.waves {
+  width: 100%;
+}
+
+.text-section {
+  width: 50rem;
+  margin-left: 5rem;
+}
+
+.text-section h1 {
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    color: var(--white);
+    white-space: nowrap;
+}
+
+.text-section p {
+    font-family: 'Rowdies';
+    color: var(--white);
+    width: 30rem;
+    text-align: justify;
+    margin-left: 4rem;
+}
+
+section .content {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+}
+
+section .content img {
+  right: 18.5rem;
+  margin-top: 2rem;
+  position: relative;
+  min-width: 20%;
+  min-height: 20%;
+  clip-path: circle(40% at 50% 37%);
+}
+
+.fancy-border {
+  margin-left: 4rem;
+  background-image: linear-gradient(229.43deg, #7F0094 14.41%, #3f007e 91.83%);
+  border-radius:
+  30% 70% 70% 30% / 30% 31% 69% 70% ;
+  min-width: 19.9rem;
+  height: 19.8rem;
 }
