@@ -205,7 +205,7 @@ main {
 
 section {
     background-image: linear-gradient(260.42deg, #20002B 0%, #2B0056 99.46%);
-    width: 100%;
+    width: 100vw;
     height: 90vh;
     box-shadow: inset 0px -3px 40px #0F0518;
     overflow-y: hidden;
