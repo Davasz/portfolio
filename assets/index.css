@@ -42,6 +42,9 @@ body {
     overflow-x: hidden;
   }
 
+
+  /* Landing Page */
+
 header {
     position: fixed;
     width: 100vw;
@@ -49,7 +52,7 @@ header {
     height: 14.7vh;
     display: flex;
     align-items: center;
-    
+    z-index: 9999;
 }
 
 header img {
@@ -203,13 +206,17 @@ main {
     box-shadow: inset 0px -4px 0px #32005A, 0px 7px 20px -4px rgb(110, 70, 255);  
 }
 
-section {
+
+
+/* Sobre */
+
+#sobre {
     background-image: linear-gradient(260.42deg, #20002B 0%, #2B0056 99.46%);
     width: 100vw;
     height: 90vh;
     box-shadow: inset 0px -3px 40px #0F0518;
-    overflow-y: hidden;
-    text-align :center;
+    overflow-x: hidden;
+    text-align :center; 
 }
 
 .waves {
@@ -238,13 +245,13 @@ section {
     margin-left: 4rem;
 }
 
-section .content {
+#sobre .content {
   margin-top: 4rem;
   width: 100%;
   display: flex;
 }
 
-section .content img {
+#sobre .content img {
   right: 18.5rem;
   margin-top: 2rem;
   position: relative;
@@ -260,4 +267,76 @@ section .content img {
   30% 70% 70% 30% / 30% 31% 69% 70% ;
   min-width: 19.9rem;
   height: 19.8rem;
+}
+
+
+/* Habilidades */
+
+#habilidades {
+  background-image: linear-gradient(247.96deg, #0F0518 4.78%, #190038 50.35%, #2C1E33 96.57%);
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+  box-shadow: inset 0px -3px 40px #0F0518;
+}
+
+#habilidades .tittle {
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 3rem;
+  padding-top: 4rem;
+}
+/* cards style */
+
+.card1 {
+  margin-left: 17%;
+}
+
+.cards {
+  font-family: 'Rowdies';
+  font-style: normal;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  overflow-x: scroll;
+  padding: 1rem;
+}
+
+.card {
+  min-width: 11.8rem;
+  height: 15.8rem;
+  border-radius: 1.25rem;
+  padding: 0.3rem;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  transition: 0.3s;
+}
+
+.card__content {
+  text-align: center;
+  color: var(--white);
+  background: rgb(5, 6, 45);
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-0.8rem);
+  box-shadow: 0px 9px 20px -4px #ae91ff; 
+}
+
+/* Projetos */
+
+#projetos {
+  background-image: linear-gradient(260.42deg, #20002B 0%, #2B0056 99.46%);
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+  box-shadow: inset 0px -3px 40px #0F0518;
 }
