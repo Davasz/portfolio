@@ -13,7 +13,8 @@ i18next.init({
           'Seja bem-vindo ao meu portfólio' : 'Welcome to my portfolio',
           'REPOSITÓRIOS' : 'REPOSITORIES',
           'Olá, eu sou o Davi Souza' : 'Hello, I am Davi Souza',
-          'Tenho 17 anos e estou no terceiro ano do ensino médio na ETEC - Prof. Armando José Farinazzo. Sou fascinado por tecnologia desde minha infancia, e depois de 1 ano de estudos me encontrei na área da programação. Atualmente minha especialidade é o Front-End, mas estou estudando tecnologias Back-End, vizando me tornar um programador Fullstack.' : 'I am 17 years old and I am in the third year of high school at ETEC - Prof. Armando Jose Farinazzo. I have been fascinated by technology since my childhood, and after 1 year of studies I found myself in the area of ​​programming. Currently my specialty is Front-End, but I am studying Back-End technologies, aiming to become a Fullstack programmer.'
+          'Tenho 17 anos e estou no terceiro ano do ensino médio na ETEC - Prof. Armando José Farinazzo. Sou fascinado por tecnologia desde minha infancia, e depois de 1 ano de estudos me encontrei na área da programação. Atualmente minha especialidade é o Front-End, mas estou estudando tecnologias Back-End, vizando me tornar um programador Fullstack.' : 'I am 17 years old and I am in the third year of high school at ETEC - Prof. Armando Jose Farinazzo. I have been fascinated by technology since my childhood, and after 1 year of studies I found myself in the area of ​​programming. Currently my specialty is Front-End, but I am studying Back-End technologies, aiming to become a Fullstack programmer.',
+          'Minhas habilidades' : 'My skills'
         }
       }
     }
