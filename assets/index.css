@@ -280,13 +280,14 @@ main {
   box-shadow: inset 0px -3px 40px #0F0518;
 }
 
-#habilidades .tittle {
+ .tittle {
   font-family: 'Rowdies';
   font-style: normal;
   font-weight: 400;
   color: var(--white);
   font-size: 3rem;
   padding-top: 4rem;
+  margin-bottom: 2rem;
 }
 /* cards style */
 
@@ -339,4 +340,57 @@ main {
   text-align: center;
   width: 100vw;
   box-shadow: inset 0px -3px 40px #0F0518;
+}
+
+/* Card style */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card {
+  margin: 2%;
+  background: rgb(5, 6, 45);
+  width: 50rem;
+  height: 20rem;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  transition: .2s all;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 2rem;
+}
+
+.project-card img {
+  width: 100%;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.project-card > span {
+  font-family: 'Rowdies';
+  margin: auto;
+  max-width: 40px;
+  color: white;
+  font-size: 2rem;
+}
+
+.container:hover .project-card {
+  filter: blur(3px);
+  opacity: .5;
+  transform: scale(.98);
+  box-shadow: none;
+}
+
+.container:hover .project-card:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+  background: var(--purple);
+  color: white;
 }
