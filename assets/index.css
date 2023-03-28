@@ -394,3 +394,52 @@ main {
   background: var(--purple);
   color: white;
 }
+
+
+/* Contato */
+
+#contato {
+  width: 100vw;
+  height: 70vh;
+  background-image: linear-gradient(182.72deg, #1E0636 2.59%, #141314 87.91%, #2A2B2D 178.87%);
+  box-shadow: inset 0px -4px 16px #2D2427;
+  text-align: center;
+}
+
+#contato .tittle {
+  font-family: 'Rowdies';
+  color: var(--white);
+  font-family: 'Rowdies';
+  font-weight: 400;
+  font-size: 3rem;
+  padding-top: 4rem;
+}
+
+.icons-contact {
+  margin-top: 6rem;
+  margin-left: 3rem;
+}
+
+#contato img {
+  margin-right: 3rem;
+  transition: 0.3s;
+}
+
+#contato img:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.line {
+  background-color: var(--purple);
+  padding: 1px;
+  margin-top:6rem;
+}
+
+.autor {
+  color: gray;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
