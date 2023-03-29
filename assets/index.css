@@ -63,7 +63,7 @@ header img {
 header a {
     color: var(--white);
     font-family: 'Rowdies', cursive;
-    margin-right: 2rem;
+    margin-right: 1.9rem;
     font-size: 130%;
     text-decoration: none;
 }
@@ -252,8 +252,8 @@ main {
 }
 
 #sobre .content img {
-  right: 18.5rem;
-  margin-top: 2rem;
+  right: 20rem;
+  margin-top: 1rem;
   position: relative;
   min-width: 20%;
   min-height: 20%;
@@ -265,8 +265,8 @@ main {
   background-image: linear-gradient(229.43deg, #7F0094 14.41%, #3f007e 91.83%);
   border-radius:
   30% 70% 70% 30% / 30% 31% 69% 70% ;
-  min-width: 19.9rem;
-  height: 19.8rem;
+  min-width: 20.9rem;
+  height: 20.8rem;
 }
 
 
@@ -343,6 +343,13 @@ main {
 }
 
 /* Card style */
+
+#projetos p {
+  color: white;
+  font-family: 'Rowdies';
+  text-align: center;
+  margin-top: 1.5rem;
+}
 
 .container {
   display: flex;
@@ -442,4 +449,135 @@ main {
   font-weight: 200;
   font-size: 1rem;
   margin-top: 1.5rem;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width: 2000px) {
+  header a {
+    margin-right: 5%;
+    font-size: 200%;
+  }
+
+  header img {
+    margin-right: 4%;
+  }
+
+  select {
+    padding: 20px;
+    font-size: 2rem;
+    margin-top: -1.4rem;
+  }
+
+  .text-main h1 {
+    font-size: 7rem;
+    margin-left: 2rem;
+  }
+
+  .text-main p {
+    font-size: 3rem;
+    margin-left: 5rem;
+  }
+
+  .repositorio {
+    height: 4.8rem;
+    width: 19rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+  }
+  .curriculo {
+    height: 4.8rem;
+    width: 19rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+}
+  .git-icon {
+      left: -5%;
+      width: 12%;
+  }
+  .download-icon {
+      width: 10%;
+  }
+
+  /* Sobre */
+
+  .text-section h1{
+    font-size: 5rem;
+    margin-left: 4rem;
+  }
+
+  .text-section p {
+    font-size: 2rem;
+    width: 70rem;
+  }
+  
+  .fancy-border {
+    min-width: 40.9rem;
+    height: 40.8rem;
+    margin-left: 35rem;
+  }
+
+  #sobre .content img {
+    right: 23%;
+    margin-top: 4rem;
+  }
+
+  /* Habilidades */
+
+  .tittle {
+    font-size: 5rem; 
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+  }
+  /* cards style */
+  
+  .card1 {
+    margin-left: -2%;
+    overflow: hidden;
+  }
+
+  .cards {
+    overflow: hidden;
+  }
+
+  .card {
+    overflow: hidden;
+     min-width: 18.8rem;
+    height: 25.8rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+  
+  /* Projetos */
+
+  #projetos p {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  #projetos .tittle {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+
+  /* Contato */
+
+  #contato .tittle {
+    font-size: 5rem;
+    padding-top: 7rem;
+  }
+
+  #contato img {
+    width: 4%;
+  }
+
+  .line {
+    margin-top: 15rem;
+  }
+
+  .autor {
+    font-size: 2rem;
+  }
 }
