@@ -255,8 +255,8 @@ main {
   right: 20rem;
   margin-top: 1rem;
   position: relative;
-  min-width: 20%;
-  min-height: 20%;
+  width: 22rem;
+  height: 22rem;
   clip-path: circle(40% at 50% 37%);
 }
 
@@ -454,7 +454,7 @@ main {
 
 /* Responsive */
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 2100px) {
   header a {
     margin-right: 5%;
     font-size: 200%;
@@ -521,6 +521,8 @@ main {
   #sobre .content img {
     right: 23%;
     margin-top: 4rem;
+    width: 20%;
+    height: 20%;
   }
 
   /* Habilidades */
@@ -580,4 +582,29 @@ main {
   .autor {
     font-size: 2rem;
   }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    position:static;
+    flex-direction: column;
+    height: 16.7vh;
+  }
+  header img {
+    margin: auto;
+    height: 40%;
+  }
+  header a {
+    display: none;
+  }
+  select {
+    position: absolute;
+    left: 8rem;
+  }
+  select option {
+    color: black;
+    background-color: transparent;
+    padding: 0;
+    
+}
 }
