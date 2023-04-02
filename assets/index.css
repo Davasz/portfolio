@@ -63,7 +63,7 @@ header img {
 header a {
     color: var(--white);
     font-family: 'Rowdies', cursive;
-    margin-right: 1.9rem;
+    margin-right: 3rem;
     font-size: 130%;
     text-decoration: none;
 }
@@ -74,7 +74,7 @@ header a:hover {
 
 header div {
     display: flex;
-    margin-left: 20rem;
+    margin-left: 14rem;
 }
 
 label {
@@ -292,7 +292,7 @@ main {
 /* cards style */
 
 .card1 {
-  margin-left: 17%;
+  margin-left: 20%;
 }
 
 .cards {
@@ -407,7 +407,7 @@ main {
 
 #contato {
   width: 100vw;
-  height: 70vh;
+  height: 75vh;
   background-image: linear-gradient(182.72deg, #1E0636 2.59%, #141314 87.91%, #2A2B2D 178.87%);
   box-shadow: inset 0px -4px 16px #2D2427;
   text-align: center;
@@ -599,12 +599,130 @@ main {
   }
   select {
     position: absolute;
-    left: 8rem;
+    left: 30%;
+    top: 12%;
   }
-  select option {
-    color: black;
-    background-color: transparent;
-    padding: 0;
-    
+
+  .text-main {
+    text-align: center;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 109%;
+    }
+  }
+  .buttons-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .curriculo {
+    margin-left: 0;
+  }
+  main button {
+    margin-top: 1rem;
+  }
+
+  #sobre {
+    height: 120%;
+  }
+  
+  .fancy-border {
+    position: absolute;
+    margin-top: 100%;
+    margin-left: 10%;
+  }
+
+  #sobre .content img {
+    margin-top: 105%;
+    margin-left: -4%;
+  }
+  
+  .text-section h1{
+    width: 15rem;
+    font-size: 160%;
+    margin-left: -19%;
+  }
+  .text-section p{
+    margin-left: -11%;
+    width: 20rem;
+    font-size: 120%;
+  }
+
+  #habilidades {
+    height: 120vh;
+  }
+  .cards {
+    margin-top: -5%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 70%;
+    overflow-x: auto;
+  }
+  .card1 {
+    margin-left: 0;
+    margin-top: 73.5rem;
+  }
+
+  #projetos {
+    overflow-x: hidden;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 20rem;
+  }
+  
+  #contato {
+    overflow-x: hidden;
+    height: 60%;
+  }
+
+  .autor {
+    margin: 0;
+  }
+  .icons-contact {
+    display: flex;
+    margin-left: 2rem;
+  }
 }
+
+@media screen and (max-width: 400px) {
+  .text-main h1 {
+      font-size: 2.7rem;
+      margin-left: 0.4rem;
+  }
+  .text-main p{
+    width: 23rem;
+  }
+
+  .text-section h1{
+    width: 15rem;
+    font-size: 140%;
+    margin-left: -25%;
+  }
+  .text-section p{
+    margin-left: -11%;
+    width: 15rem;
+    font-size: 100%;
+  }
+  .fancy-border {
+    min-width: 18.9rem;
+    height: 18.8rem;
+  }
+  #sobre .content img {
+    margin-top: 101%;
+    margin-left: 10%;
+  }
+  .icons-contact img {
+    
+    height: 80%;
+    width: 80%;
+  }
 }
