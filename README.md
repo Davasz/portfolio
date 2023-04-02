@@ -29,7 +29,7 @@ Projeto pessoal desenvolvido em HTML, CSS e Javascript de forma inteiramente nat
 
 ## 📞 Contatos
 
-<div>
+<div align="center">
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davi-ribeiro-souza-745155246/)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ZRCsJTEcyr)
