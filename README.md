@@ -12,7 +12,7 @@ Projeto pessoal desenvolvido em HTML, CSS e Javascript de forma inteiramente nat
 
 ## 🛠 Funcionalidades
 
-- Mudança de idioma (iglês e português);
+- Mudança de idioma (inglês e português);
 - Sessão "Sobre";
 - Sessão "Habilidades";
 - Sessão "Projetos";
